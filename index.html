@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/style.css" rel="stylesheet" />
+    <title>Hangman Game</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <script type="module" src="./src/js/main.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="absolute top-6 right-6">
+        <label class="inline-flex items-center cursor-pointer">
+          <input
+            id="toggleDarkMode"
+            type="checkbox"
+            value=""
+            class="sr-only peer"
+          />
+          <div
+            class="relative w-9 h-5 bg-gray-200 bg-neutral-quaternary peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-brand-soft dark:peer-focus:ring-brand-soft rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-buffer after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-indigo-500"
+          ></div>
+          <span class="select-none ms-3 text-sm font-medium text-heading"
+            >Dark mode</span
+          >
+        </label>
+      </div>
+      <h1 id="logo" class="logo">[ HANGMAN GAME ]</h1>
+      <div id="game" class="mt-10 flex flex-col items-center">
+        <button id="startGame" class="button-primary">Start game</button>
+      </div>
+    </div>
+  </body>
+</html>
