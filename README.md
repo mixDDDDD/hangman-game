@@ -30,3 +30,6 @@
    ```bash
    git clone https://github.com/mixDDDDD/hangman-game.git
    ```
+2. Перейди в папку проекта: cd hangman-game
+
+3. Открой index.html в браузере (или запусти через Live Server в VS Code).
