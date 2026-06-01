@@ -33,7 +33,7 @@
 2. Перейди в папку проекта:
 
    ```bash
-   cd hangman-game
+   cd vite-hangman
    ```
 
 3. Открой index.html в браузере (или запусти через Live Server в VS Code).
